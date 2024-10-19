@@ -31,7 +31,7 @@ async function enviarCorreo(req, res) {
 
   const mailOptions = {
     from: process.env.EMAIL_USER,
-    to: "Reservastaybobeach@sthoteles.com",
+    to: "comercial@sthoteles.com",
     subject: 'SOLICITUD DE RESERVACIÓN PARA GRUPOS TAYBO BEACH',
     html: `
  <h2 style="text-align: center; font-family: Arial, sans-serif; color: #333">
